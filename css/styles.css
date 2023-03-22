@@ -1,0 +1,248 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Calistoga&family=Chewy&family=Creepster&family=Gloria+Hallelujah&family=Kreon&family=Lobster&family=Playfair+Display&family=Special+Elite&display=swap');
+
+/* COLORS:
+#9B3B8F: Light Purple
+#6B1E62: Medium Purple
+#501C4B: Dark Purple
+#000115: Black
+#F0EFF4: White
+*/
+
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+.hnav {
+	background-color: #000015;
+}
+
+.hnav ul {
+	display: block;
+	text-align: center;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.hnav ul li {
+	display: inline-block;
+	list-style: none;
+	width: 19%;
+}
+
+.hnav a {
+	color: #F0EFF4;
+	text-decoration: none;
+	transition: 0.3s all;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 4em;
+}
+
+.hnav a p {
+	transition: all 0.3s;
+}
+
+.hnav a p:hover {
+	transform: translate(-5px, -5px);
+	text-shadow: 0.0px 0.0px 0 #501c4b, 0.5px 0.5px 0 #501c4b, 1.0px 1.0px 0 #501c4b, 1.5px 1.5px 0 #501c4b, 2.0px 2.0px 0 #501c4b, 2.5px 2.5px 0 #501c4b, 3.0px 3.0px 0 #501c4b, 3.5px 3.5px 0 #501c4b, 4.0px 4.0px 0 #501c4b, 4.5px 4.5px 0 #501c4b, 5.0px 5.0px 0 #501c4b;
+	color: #9B3B8F;
+}
+
+.hnav a p:active {
+	color: #ff0000;
+	text-shadow: 0.0px 0.0px 0 #960000, 0.5px 0.5px 0 #960000, 1.0px 1.0px 0 #960000, 1.5px 1.5px 0 #960000, 2.0px 2.0px 0 #960000, 2.5px 2.5px 0 #960000, 3.0px 3.0px 0 #960000, 3.5px 3.5px 0 #960000, 4.0px 4.0px 0 #960000, 4.5px 4.5px 0 #960000, 5.0px 5.0px 0 #960000;
+	transition: all 0s;
+}
+
+.title {
+	text-align: center;
+	font-size: 7em;
+	background-color: #9b3b8f;
+	padding: 0.2em 0;
+	color: #501c4b;
+	text-shadow: 5px 5px 10px #00001577;
+	background: url("../images/city.jpeg");
+	background-size: cover;
+	background-position: 0 500px;
+	font-family: "Special Elite", cursive;
+}
+
+h2 {
+	font-family: 'Bebas Neue', sans-serif;
+	color: #000015;
+	font-size: 1.9em;
+	text-align: center;
+	transform: translate(0, -10px);
+}
+
+body {
+	color: #000015;
+	background-color: #f0eff4;
+	font-family: "Playfair Display", serif;
+}
+
+.doSomethingCoolHere {
+	font-family: "Special Elite", cursive;
+	animation: ranibow 3s infinite linear;
+}
+
+@keyframes ranibow {
+	0% {color: #960000; text-shadow: 0 0 10px #96000077, 0 0 20px #96000077, 0 0 30px #96000077, 0 0 40px #96000077, 0 0 50px #96000077, 0 0 60px #96000077, 0 0 70px #96000077;}
+	33%{color: #009600; text-shadow: 0 0 10px #00960077, 0 0 20px #00960077, 0 0 30px #00960077, 0 0 40px #00960077, 0 0 50px #00960077, 0 0 60px #00960077, 0 0 70px #009600;}
+	66%{color: #000096; text-shadow: 0 0 10px #00009677, 0 0 20px #00009677, 0 0 30px #00009677, 0 0 40px #00009677, 0 0 50px #00009677, 0 0 60px #00009677, 0 0 70px #000096;}
+	100% {color: #960000; text-shadow: 0 0 10px #96000077, 0 0 20px #96000077, 0 0 30px #96000077, 0 0 40px #96000077, 0 0 50px #96000077, 0 0 60px #96000077, 0 0 70px #96000077;}
+}
+
+.otherFont {
+	font-family: "Special Elite", cursive;
+}
+
+.bold {
+	font-weight: bold;
+	font-style: italic;
+}
+
+main {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+main p {
+	font-size: 1.5em;
+}
+
+ol li {
+	font-size: 1.3em;
+}
+
+form {
+	font-size: 1.3em;
+}
+
+.desert {
+	color: #553300;
+	text-decoration: none;
+	transition: all .3s;
+}
+
+.desert:hover {
+	color: #997700;
+}
+
+img {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.image {
+	text-align: center;
+}
+
+.button {
+	padding: 5px 10px;
+	border-radius: 10px;
+	background-color: #9b3b8f;
+	font-weight: bold;
+	font-size:.8em;
+	color: #000115;
+	transition: 0.2s all;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #6b1e62;
+}
+
+#submit:hover {
+	background-color: #009600;
+	color: #003300;
+	transform: translate(-5px, -5px);
+	box-shadow: 0.0px 0.0px 0 0 #007700, 0.5px 0.5px 0 0 #007700, 1.0px 1.0px 0 0 #007700, 1.5px 1.5px 0 0 #007700, 2.0px 2.0px 0 0 #007700, 2.5px 2.5px 0 0 #007700, 3.0px 3.0px 0 0 #007700, 3.5px 3.5px 0 0 #007700, 4.0px 4.0px 0 0 #007700, 4.5px 4.5px 0 0 #007700, 5.0px 5.0px 0 0 #007700;
+}
+
+#reset:hover {
+	background-color: #960000;
+	color: #330000;
+	transform: translate(-5px, -5px);
+	box-shadow: 0.0px 0.0px 0 0 #770000, 0.5px 0.5px 0 0 #770000, 1.0px 1.0px 0 0 #770000, 1.5px 1.5px 0 0 #770000, 2.0px 2.0px 0 0 #770000, 2.5px 2.5px 0 0 #770000, 3.0px 3.0px 0 0 #770000, 3.5px 3.5px 0 0 #770000, 4.0px 4.0px 0 0 #770000, 4.5px 4.5px 0 0 #770000, 5.0px 5.0px 0 0 #770000;
+}
+
+.pass {
+	width: 80%;
+	border-radius: 6px;
+	border: 1px solid #000115;
+	padding: 5px;
+	
+}
+
+#input {
+	text-decoration: none;
+	font-family: "Arial", sans-serif;
+}
+
+h5 {
+	text-align: center;
+}
+
+.perform {
+	color: #550000;
+}
+
+.spire {
+	color: #442200;
+	font-family: "Special Elite", cursive;
+	text-shadow: 0 0 10px #44220077, 0 0 20px #44220077, 0 0 30px #44220077, 0 0 40px #44220077, 0 0 50px #44220077, 0 0 60px #44220077, 0 0 70px #44220077;
+	}
+
+.stone {
+	color: #501C4B;
+	font-family: "Gloria Hallelujah", cursive;
+}
+
+.fnav {
+	background-color: #000015;
+}
+
+.fnav ul {
+	display: block;
+	text-align: center;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.fnav ul li {
+	display: inline-block;
+	list-style: none;
+	width: 19%;
+}
+
+.fnav a {
+	color: #F0EFF4;
+	text-decoration: none;
+	transition: 0.3s all;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 4em;
+}
+
+.fnav a p {
+	transition: all 0.3s;
+}
+
+.fnav a p:hover {
+	transform: translate(-5px, -5px);
+	text-shadow: 0.0px 0.0px 0 #501c4b, 0.5px 0.5px 0 #501c4b, 1.0px 1.0px 0 #501c4b, 1.5px 1.5px 0 #501c4b, 2.0px 2.0px 0 #501c4b, 2.5px 2.5px 0 #501c4b, 3.0px 3.0px 0 #501c4b, 3.5px 3.5px 0 #501c4b, 4.0px 4.0px 0 #501c4b, 4.5px 4.5px 0 #501c4b, 5.0px 5.0px 0 #501c4b;
+	color: #9B3B8F;
+}
+
+.fnav a p:active {
+	color: #ff0000;
+	text-shadow: 0.0px 0.0px 0 #960000, 0.5px 0.5px 0 #960000, 1.0px 1.0px 0 #960000, 1.5px 1.5px 0 #960000, 2.0px 2.0px 0 #960000, 2.5px 2.5px 0 #960000, 3.0px 3.0px 0 #960000, 3.5px 3.5px 0 #960000, 4.0px 4.0px 0 #960000, 4.5px 4.5px 0 #960000, 5.0px 5.0px 0 #960000;
+	transition: all 0s;
+}

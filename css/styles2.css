@@ -1,0 +1,195 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Calistoga&family=Chewy&family=Creepster&family=Kreon&family=Lobster&family=Playfair+Display&family=Special+Elite&display=swap');
+
+/* COLORS:
+#F9E94C: Yellow
+#DF860E: Orange
+#FF2021: Red
+#0E110A: Black
+#F0EFF4: White
+*/
+
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+.hnav {
+	background-color: #F9E94C;
+}
+
+.hnav ul {
+	display: block;
+	text-align: center;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.hnav ul li {
+	display: inline-block;
+	list-style: none;
+	width: 19%;
+}
+
+.hnav a {
+	color: #0E110A;
+	text-decoration: none;
+	transition: 0.3s all;
+	font-family: 'Calistoga', serif;
+	font-size: 2em;
+}
+
+.hnav a p {
+	transition: all 0.3s;
+}
+
+.hnav a p:hover {
+	color: #df860e;
+	text-shadow: 0 0 10px #df860e77, 0 0 20px #df860e77, 0 0 30px #df860e77, 0 0 40px #df860e77, 0 0 50px #df860e77, 0 0 60px #df860e77, 0 0 70px #df860e77;
+}
+
+.title {
+	text-align: center;
+	font-size: 7em;
+	background-color: #f9e94c;
+	padding: 0.2em 0;
+	color: #FF2021;
+	text-shadow: 5px 5px 10px #0E110A77;
+	background: url("../images/city2.jpeg");
+	background-size: cover;
+	background-position: 0 500px;
+	font-family: "Lobster", cursive;
+}
+
+h2 {
+	font-family: 'Calistoga', sans-serif;
+	color: #0e110a;
+	font-size: 6em;
+	text-align: center;
+	transform: translate(0, -10px);
+}
+
+body {
+	color: #0E110A;
+	background-color: #f0eff4;
+	font-family: "Kreon", serif;
+}
+
+main {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+main p {
+	font-size: 1.5em;
+}
+
+ol li {
+	font-size: 1.3em;
+}
+
+.night {
+	color: #421249;
+	text-decoration: none;
+	transition: all .3s;
+}
+
+.night:hover {
+	color: #842593;
+}
+
+.everything {
+	color: #ff2021;
+}
+
+img {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.image {
+	text-align: center;
+}
+
+.button {
+	padding: 5px 10px;
+	border-radius: 10px;
+	background-color: #F9E94C;
+	font-weight: bold;
+	font-size:.8em;
+	color: #0E110A;
+	transition: 0.2s all;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #6b1e62;
+}
+
+form {
+	font-size: 1.3em;
+}
+
+#submit:hover {
+	background-color: #7df426;
+	color: #003300;
+	box-shadow: 0 0 10px #7df42677, 0 0 20px #7df42677, 0 0 30px #7df42677;
+}
+
+#reset:hover {
+	background-color: #fc7526;
+	color: #330000;
+	box-shadow: 0 0 10px #fc752677, 0 0 20px #fc752677, 0 0 30px #fc752677;
+}
+
+h5 {
+	text-align: center;
+}
+
+.fnav {
+	background-color: #F9E94C;
+}
+
+.fnav ul {
+	display: block;
+	text-align: center;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.fnav ul li {
+	display: inline-block;
+	list-style: none;
+	width: 19%;
+}
+
+.fnav a {
+	color: #0E110A;
+	text-decoration: none;
+	transition: 0.3s all;
+	font-family: 'Calistoga', serif;
+	font-size: 2em;
+}
+
+.fnav a p {
+	transition: all 0.3s;
+}
+
+.fnav a p:hover {
+	color: #df860e;
+	text-shadow: 0 0 10px #df860e77, 0 0 20px #df860e77, 0 0 30px #df860e77, 0 0 40px #df860e77, 0 0 50px #df860e77, 0 0 60px #df860e77, 0 0 70px #df860e77;
+}
+
+.smile {
+	width: 10%;
+}
+
+.italic {
+	font-style: italic;
+}
